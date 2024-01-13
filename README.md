@@ -4,7 +4,7 @@ My submission to the Engineering Internship Prompt for Sports Reference 2024 Sum
 **Note:** I'm very comfortable coding in python, hence the submission is a python script.
 
 **General Outiline of the Code:**
-1. To read the json file, I use the json package in python (lines 6-7)
+1. To read the json file, I use the json package in python (lines 6-7) -- assuming json filename is "data.json"
 2. The data in the json file is returned as a dictionary, with team names as the key
 3. I'm keeping a list 'team_names', to keep track of the teams (line 9), which will be useful for adding headers to the table (line 29, 36)
 4. "matrix" holds all the data of the head to head records
