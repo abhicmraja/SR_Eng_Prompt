@@ -14,7 +14,7 @@ My submission to the Engineering Internship Prompt for Sports Reference 2024 Sum
 8. When team_1 == team_2, I'm appending a hyphen to the list (line 24)
 9. Converting the data to a pandas dataframe, and printing the data on the terminal screen, without any UI/colors (lines 30-31)
 10. Showing the same data on a table (with color) using matplotlib (lines 34 - 37)
-    Can see the results of 10 and 11 in the png file named "Table - Terminal and UI.png"
+11. Can see the results of 10 and 11 in the png file named "Table - Terminal and UI.png"
 
 **Explanation for Adding "-" using index:**
 I'm iterating through the names of the team twice, (loop inside a loop), with team_1 being the row and team_2 representing the column of the table. The dictionary stored under the 'team_1' key does not contain the same team, as record does not exist for head to head. Hence, by using the indices of the two teams from list 'team_names', we can append a hyphen to the list 'scores'. When 'team_2' index is one less than index of 'team_1', appending a hyphen will add a hyphen for the head to head record for 'team_1' vs 'team_1'
