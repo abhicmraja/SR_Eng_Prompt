@@ -16,10 +16,10 @@ My submission to the Engineering Internship Prompt for Sports Reference 2024 Sum
 10. Showing the same data on a table (with color) using matplotlib (lines 34 - 37)
 
 **Explanation for Adding "-" using index:**
-  I'm iterating through the names of the team twice, (loop inside a loop), with team_1 being the row and team_2 representing the column of the table. The dictionary stored under the 'team_1' key does not contain the same team, as record does not exist for head to head. Hence, by using the indices of the two teams from list 'team_names', we can append a hyphen to the list 'scores'. When 'team_2' index is one less than index of 'team_1', appending a hyphen will add a hyphen for the head to head record for 'team_1' vs 'team_1'
+I'm iterating through the names of the team twice, (loop inside a loop), with team_1 being the row and team_2 representing the column of the table. The dictionary stored under the 'team_1' key does not contain the same team, as record does not exist for head to head. Hence, by using the indices of the two teams from list 'team_names', we can append a hyphen to the list 'scores'. When 'team_2' index is one less than index of 'team_1', appending a hyphen will add a hyphen for the head to head record for 'team_1' vs 'team_1'
 
 
 **Explanation for Adding only Win records:**
-  By noticing the table provided, we can see that the head to head record, when read horizontally (reading left to right for a particular row), only stores the win record of the team in the row heading. When read vertically, the cell stores the loss record of the team in the column heading. Since, I'm using a list of list type representation, I'm reading data from the json file horizontally, and also storing it in the same manner. Hence, only storing the win records.
+By noticing the table provided, we can see that the head to head record, when read horizontally (reading left to right for a particular row), only stores the win record of the team in the row heading. When read vertically, the cell stores the loss record of the team in the column heading. Since, I'm using a list of list type representation, I'm reading data from the json file horizontally, and also storing it in the same manner. Hence, only storing the win records.
 
   
